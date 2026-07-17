@@ -2,7 +2,13 @@
 
 Deep research AI agent with social login, credit ledger paywall, BYOK OpenAI-compatible models, web tools, PDF artifacts, and per-chat cost stats.
 
-See **[MILESTONES.md](MILESTONES.md)** for phase progress and **[SETUP.md](SETUP.md)** for infrastructure.
+| Doc | Purpose |
+| --- | --- |
+| [ACCEPTANCE.md](ACCEPTANCE.md) | Definition of done (acceptance ≠ code complete) |
+| [MILESTONES.md](MILESTONES.md) | Phase board |
+| [ARCHITECTURE.md](ARCHITECTURE.md) | Layering & invariants |
+| [CHANGELOG.md](CHANGELOG.md) | Versioned shipping notes |
+| [SETUP.md](SETUP.md) | Infrastructure / env / OAuth |
 
 ## Architecture (frozen)
 
