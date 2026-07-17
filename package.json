@@ -1,0 +1,41 @@
+{
+  "name": "micromanus",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "check-env": "node scripts/check-env.mjs",
+    "check-env:oauth": "node scripts/check-env.mjs --oauth",
+    "check-env:auth": "node scripts/check-env.mjs --auth",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "@mozilla/readability": "^0.6.0",
+    "@react-pdf/renderer": "^4.5.1",
+    "@supabase/ssr": "^0.12.3",
+    "@supabase/supabase-js": "^2.110.7",
+    "@upstash/redis": "^1.38.0",
+    "jsdom": "^29.1.1",
+    "next": "16.2.10",
+    "openai": "^6.48.0",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "stripe": "^22.3.2",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/jsdom": "^28.0.3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.10",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "vercel": "^56.3.1"
+  }
+}
